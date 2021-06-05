@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+    
+    frontend:
+        container_name: mr-nuxt
+        build:
+          context: .
+          dockerfile: Dockerfile
+        volumes:
+          - .:/app/
+          - /app/node_modules
+        depends_on:
+          - app
+        ports:
+          - 8080:8080
