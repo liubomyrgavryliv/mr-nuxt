@@ -1,0 +1,17 @@
+@import '~vuetify/src/styles/styles.sass';
+
+/* General styling */
+
+* {
+    font-family: 'IBM Plex Mono';
+}
+
+body {
+    background-color: var(--v-shades1-base);
+    color: var(--v-font1-base);
+}
+
+/* Layout global */
+.light-text {
+    color: var(--v-font1-base);
+}

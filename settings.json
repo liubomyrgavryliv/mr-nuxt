@@ -1,0 +1,9 @@
+{
+    "editor.formatOnSave": true,
+    "vetur.validation.template": false,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
+    "prettier.tabWidth": 4,
+    "prettier.useTabs": true
+  }
