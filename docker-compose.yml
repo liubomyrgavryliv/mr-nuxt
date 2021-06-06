@@ -2,18 +2,18 @@ version: '3.8'
 
 services:
     
-    frontend:
-        container_name: mr-nuxt
-        build:
-          context: .
-          dockerfile: Dockerfile
-        volumes:
-          - .:/mr-nuxt/
-          - /mr-nuxt/node_modules
-        command: npm run dev
-        ports:
-          - 8080:8080
-        environment:
-            NUXT_HOST: 0.0.0.0
-            BASE_URL: http://0.0.0.0:8000
-            BROWSER_BASE_URL: http://0.0.0.0:8000
+  mr-nuxt:
+    container_name: mr-nuxt
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/mr-nuxt/
+      - /mr-nuxt/node_modules
+    command: npm run dev
+    ports:
+      - 8080:8080
+    environment:
+        NUXT_HOST: 0.0.0.0
+        BASE_URL: http://0.0.0.0:8000
+        BROWSER_BASE_URL: http://0.0.0.0:8000
