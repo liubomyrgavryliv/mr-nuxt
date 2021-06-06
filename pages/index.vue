@@ -22,8 +22,7 @@
                                 <p
                                     class="light-text text-center font-weight-bold text-sm-h6 text-md-h4 text-break"
                                 >
-                                    Welcome to mineralogy.rocks! Because
-                                    mineralogy really rocks :)
+                                    Welcome to mineralogy.rocks!
                                 </p>
                             </div>
                         </v-col>
